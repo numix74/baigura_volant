@@ -1,0 +1,104 @@
+{
+  "CLASS": "org.xcontest.XCTrack.widget.wp.WPXCAssistant",
+  "navigations": [
+    "org.xcontest.XCTrack.navig.TaskBackToTakeoff",
+    "org.xcontest.XCTrack.navig.TaskTriangleClosing",
+    "org.xcontest.XCTrack.navig.TaskToWaypoint"
+  ],
+  "widgets": [
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WXCAssistant",
+      "X1": 0,
+      "Y1": 3226,
+      "X2": 10000,
+      "Y2": 10000,
+      "_border": true,
+      "_bg": 100,
+      "rotation": {
+        "value": "NORTH_AT_TOP",
+        "showCompass": false
+      },
+      "mapWidget_scale": {
+        "value": 26,
+        "auto": true
+      },
+      "mapWidget_drawScale": true,
+      "mapWidget_showTerrain": true,
+      "mapWidget_showAirspaces": true,
+      "wpt_showWaypoints": false,
+      "wpt_showCities": false,
+      "wpt_showTakeoffs": false,
+      "nav_target": "OPTIMIZED",
+      "nav_use_brackets": true,
+      "thermals": 0,
+      "nav_showWind": true,
+      "nav_showSun": true,
+      "line_thickness": 10,
+      "routes": true,
+      "faiAreas": true,
+      "faiAreasMinMax": true,
+      "legDistance": false,
+      "legPercentage": false,
+      "closingCircle": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WOptiResult",
+      "X1": 0,
+      "Y1": 1290,
+      "X2": 3684,
+      "Y2": 2258,
+      "_border": true,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WAltitude",
+      "X1": 0,
+      "Y1": 323,
+      "X2": 3684,
+      "Y2": 1290,
+      "_border": true,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WStatusLine",
+      "X1": 0,
+      "Y1": 0,
+      "X2": 10000,
+      "Y2": 323,
+      "_border": false,
+      "_bg": 100,
+      "showTime": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WAirspaceProximity",
+      "X1": 3684,
+      "Y1": 323,
+      "X2": 10000,
+      "Y2": 3226,
+      "_border": true,
+      "_bg": 60,
+      "maxDistance": 5000,
+      "_shownearinside": true,
+      "_showoriginalheightline": true,
+      "_showrecomputedheightline": false,
+      "_splitdirection": "HORIZONTAL",
+      "postponedFloorLimit": 2500,
+      "postponedDisplayDistance": 300
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WOptiUnfinishedTriangle",
+      "X1": 0,
+      "Y1": 2258,
+      "X2": 3684,
+      "Y2": 3226,
+      "_border": true,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    }
+  ]
+}

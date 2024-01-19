@@ -1,0 +1,186 @@
+{
+  "CLASS": "org.xcontest.XCTrack.widget.wp.WPXCAssistant",
+  "navigations": [
+    "org.xcontest.XCTrack.navig.TaskBackToTakeoff",
+    "org.xcontest.XCTrack.navig.TaskTriangleClosing",
+    "org.xcontest.XCTrack.navig.TaskToWaypoint"
+  ],
+  "widgets": [
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WXCAssistant",
+      "X1": 2727,
+      "Y1": 0,
+      "X2": 10000,
+      "Y2": 10000,
+      "_border": true,
+      "_bg": 100,
+      "rotation": {
+        "value": "NORTH_AT_TOP",
+        "showCompass": false
+      },
+      "mapWidget_scale": {
+        "value": 30,
+        "auto": true
+      },
+      "mapWidget_drawScale": true,
+      "mapWidget_showTerrain": true,
+      "mapWidget_showAirspaces": true,
+      "wpt_showWaypoints": false,
+      "wpt_showCities": false,
+      "wpt_showTakeoffs": false,
+      "nav_target": "OPTIMIZED",
+      "nav_use_brackets": true,
+      "thermals": 0,
+      "nav_showWind": true,
+      "nav_showSun": true,
+      "line_thickness": 10,
+      "routes": true,
+      "faiAreas": true,
+      "faiAreasMinMax": true,
+      "legDistance": false,
+      "legPercentage": false,
+      "closingCircle": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WThermalAssistant",
+      "X1": 0,
+      "Y1": 526,
+      "X2": 2727,
+      "Y2": 4737,
+      "_border": true,
+      "_bg": 100,
+      "rotation": {
+        "value": "NORTH_AT_TOP",
+        "showCompass": false
+      },
+      "mapScale": {
+        "value": 34,
+        "auto": false
+      },
+      "drawScale": false,
+      "interval": 300,
+      "drawCircle": false,
+      "includeWindAlgorithm": "ALGO_CLASSIC",
+      "nav_target": "NONE",
+      "nav_use_brackets": true,
+      "thermals": 0,
+      "nav_showWind": false,
+      "nav_showSun": false,
+      "line_thickness": 10
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WXCAssistant",
+      "X1": 0,
+      "Y1": 5789,
+      "X2": 2727,
+      "Y2": 10000,
+      "_border": true,
+      "_bg": 100,
+      "rotation": {
+        "value": "NORTH_AT_TOP",
+        "showCompass": false
+      },
+      "mapWidget_scale": {
+        "value": 29,
+        "auto": false
+      },
+      "mapWidget_drawScale": true,
+      "mapWidget_showTerrain": true,
+      "mapWidget_showAirspaces": true,
+      "wpt_showWaypoints": false,
+      "wpt_showCities": false,
+      "wpt_showTakeoffs": false,
+      "nav_target": "NONE",
+      "nav_use_brackets": true,
+      "thermals": 0,
+      "nav_showWind": false,
+      "nav_showSun": false,
+      "line_thickness": 10,
+      "routes": true,
+      "faiAreas": true,
+      "faiAreasMinMax": false,
+      "legDistance": false,
+      "legPercentage": false,
+      "closingCircle": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WStatusLine",
+      "X1": 0,
+      "Y1": 0,
+      "X2": 2727,
+      "Y2": 526,
+      "_border": false,
+      "_bg": 100,
+      "showTime": false
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WOptiResult",
+      "X1": 0,
+      "Y1": 4211,
+      "X2": 1212,
+      "Y2": 4737,
+      "_border": false,
+      "_bg": 100,
+      "_title": false,
+      "_unit": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WSpeed",
+      "X1": 0,
+      "Y1": 4737,
+      "X2": 909,
+      "Y2": 5789,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WAltitude",
+      "X1": 1818,
+      "Y1": 4737,
+      "X2": 2727,
+      "Y2": 5789,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WGlide",
+      "X1": 909,
+      "Y1": 4737,
+      "X2": 1818,
+      "Y2": 5789,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true,
+      "showVario": true,
+      "avg": 4000,
+      "headless": false
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WTime",
+      "X1": 0,
+      "Y1": 526,
+      "X2": 1212,
+      "Y2": 1053,
+      "_border": false,
+      "_bg": 100,
+      "_title": false,
+      "showSec": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WThermalAltGain",
+      "X1": 2121,
+      "Y1": 4211,
+      "X2": 2727,
+      "Y2": 4737,
+      "_border": false,
+      "_bg": 100,
+      "_title": false,
+      "_unit": true
+    }
+  ]
+}

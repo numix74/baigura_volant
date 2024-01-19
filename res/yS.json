@@ -1,0 +1,165 @@
+{
+  "CLASS": "org.xcontest.XCTrack.widget.wp.WPCompetition",
+  "navigations": [
+    "org.xcontest.XCTrack.navig.TaskCompetition"
+  ],
+  "widgets": [
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WCompMap",
+      "X1": 0,
+      "Y1": 1290,
+      "X2": 10000,
+      "Y2": 9032,
+      "_border": true,
+      "_bg": 100,
+      "rotation": {
+        "value": "NORTH_AT_TOP",
+        "showCompass": false
+      },
+      "mapWidget_scale": {
+        "value": 26,
+        "auto": true
+      },
+      "mapWidget_drawScale": true,
+      "mapWidget_showTerrain": true,
+      "mapWidget_showAirspaces": true,
+      "wpt_showWaypoints": true,
+      "wpt_showCities": false,
+      "wpt_showTakeoffs": false,
+      "nav_target": "OPTIMIZED",
+      "nav_use_brackets": true,
+      "thermals": 0,
+      "nav_showWind": true,
+      "nav_showSun": true,
+      "line_thickness": 20
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WStatusLine",
+      "X1": 0,
+      "Y1": 0,
+      "X2": 10000,
+      "Y2": 323,
+      "_border": false,
+      "_bg": 100,
+      "showTime": false
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WCompTimeToStart",
+      "X1": 7895,
+      "Y1": 1290,
+      "X2": 10000,
+      "Y2": 2258,
+      "_border": false,
+      "_bg": 100,
+      "_title": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WCompTimeAtStart",
+      "X1": 7895,
+      "Y1": 2258,
+      "X2": 10000,
+      "Y2": 3548,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true,
+      "navigation_target": "OPTIMIZED",
+      "use_brackets": true,
+      "speed_type": "GROUND",
+      "speed_avg": 10000,
+      "time_format": "COMPACT"
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WCompDistanceToGoal",
+      "X1": 0,
+      "Y1": 9032,
+      "X2": 3684,
+      "Y2": 10000,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WCompAltitudeOverGoal",
+      "X1": 6316,
+      "Y1": 9032,
+      "X2": 10000,
+      "Y2": 10000,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WCompGlideToGoal",
+      "X1": 3684,
+      "Y1": 9032,
+      "X2": 6316,
+      "Y2": 10000,
+      "_border": true,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true,
+      "headless": false
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WAltitude",
+      "X1": 0,
+      "Y1": 323,
+      "X2": 2632,
+      "Y2": 1290,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WNextTurnpointAlt",
+      "X1": 2632,
+      "Y1": 323,
+      "X2": 5263,
+      "Y2": 1290,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true,
+      "navigation_target": "OPTIMIZED",
+      "use_brackets": false,
+      "speed_type": "GROUND",
+      "speed_avg": 8000,
+      "altitude": "AMSL"
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WNextTurnpointTimeOfArrival",
+      "X1": 7895,
+      "Y1": 323,
+      "X2": 10000,
+      "Y2": 1290,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true,
+      "navigation_target": "OPTIMIZED",
+      "use_brackets": false,
+      "speed_type": "GROUND",
+      "speed_avg": 8000,
+      "time_format": "COMPACT"
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WNextTurnpointGlideTo",
+      "X1": 5263,
+      "Y1": 323,
+      "X2": 7895,
+      "Y2": 1290,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true,
+      "navigation_target": "OPTIMIZED",
+      "use_brackets": false,
+      "alt_above": 600,
+      "headless": false
+    }
+  ]
+}

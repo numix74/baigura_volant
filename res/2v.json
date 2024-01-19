@@ -1,0 +1,173 @@
+{
+  "CLASS": "org.xcontest.XCTrack.widget.wp.WPThermalAssistant",
+  "navigations": "all",
+  "widgets": [
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WThermalAssistant",
+      "X1": 526,
+      "Y1": 3226,
+      "X2": 10000,
+      "Y2": 9032,
+      "_border": true,
+      "_bg": 100,
+      "rotation": {
+        "value": "NORTH_AT_TOP",
+        "showCompass": false
+      },
+      "mapScale": {
+        "value": 35,
+        "auto": false
+      },
+      "drawScale": true,
+      "interval": 300,
+      "drawCircle": true,
+      "includeWindAlgorithm": "ALGO_CLASSIC",
+      "nav_target": "OPTIMIZED",
+      "nav_use_brackets": true,
+      "thermals": 2,
+      "nav_showWind": true,
+      "nav_showSun": false,
+      "line_thickness": 20
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WAltitude",
+      "X1": 0,
+      "Y1": 1935,
+      "X2": 3158,
+      "Y2": 3226,
+      "_border": true,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WStatusLine",
+      "X1": 0,
+      "Y1": 0,
+      "X2": 10000,
+      "Y2": 323,
+      "_border": false,
+      "_bg": 100,
+      "showTime": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WThermalAltGain",
+      "X1": 3158,
+      "Y1": 9032,
+      "X2": 6842,
+      "Y2": 10000,
+      "_border": true,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WSpeed",
+      "X1": 0,
+      "Y1": 323,
+      "X2": 3158,
+      "Y2": 1935,
+      "_border": true,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WAltitudeAboveGround",
+      "X1": 6842,
+      "Y1": 1935,
+      "X2": 10000,
+      "Y2": 3226,
+      "_border": true,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WCompass",
+      "X1": 3158,
+      "Y1": 323,
+      "X2": 6842,
+      "Y2": 2581,
+      "_border": false,
+      "_bg": 100,
+      "rotation": "HEADING",
+      "navigation_target": "NONE",
+      "showWind": true,
+      "showHeading": false
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WAirTime",
+      "X1": 3158,
+      "Y1": 2581,
+      "X2": 6842,
+      "Y2": 3226,
+      "_border": true,
+      "_bg": 100,
+      "_title": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WVarioColumn",
+      "X1": 0,
+      "Y1": 3226,
+      "X2": 526,
+      "Y2": 9032,
+      "_border": true,
+      "_bg": 100,
+      "avg": 2000
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WVerticalSpeed",
+      "X1": 0,
+      "Y1": 9032,
+      "X2": 3158,
+      "Y2": 10000,
+      "_border": true,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true,
+      "avg": 2000
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WGlide",
+      "X1": 6842,
+      "Y1": 9032,
+      "X2": 10000,
+      "Y2": 10000,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true,
+      "showVario": false,
+      "avg": 8000,
+      "headless": false
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WAirspaceProximity",
+      "X1": 6842,
+      "Y1": 7742,
+      "X2": 10000,
+      "Y2": 9032,
+      "_border": false,
+      "_bg": 100,
+      "maxDistance": 5000,
+      "_shownearinside": false,
+      "_showoriginalheightline": false,
+      "_showrecomputedheightline": false,
+      "_splitdirection": "AUTO",
+      "postponedFloorLimit": 2500,
+      "postponedDisplayDistance": 300
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WWindSpeed",
+      "X1": 6842,
+      "Y1": 323,
+      "X2": 10000,
+      "Y2": 1935,
+      "_border": true,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    }
+  ]
+}

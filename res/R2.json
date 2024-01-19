@@ -1,0 +1,174 @@
+{
+  "CLASS": "org.xcontest.XCTrack.widget.wp.WPThermalAssistant",
+  "navigations": "all",
+  "widgets": [
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WThermalAssistant",
+      "X1": 3333,
+      "Y1": 0,
+      "X2": 10000,
+      "Y2": 10000,
+      "_border": true,
+      "_bg": 100,
+      "rotation": {
+        "value": "NORTH_AT_TOP",
+        "showCompass": true
+      },
+      "mapScale": {
+        "value": 34,
+        "auto": false
+      },
+      "drawScale": true,
+      "interval": 480,
+      "drawCircle": false,
+      "includeWindAlgorithm": "ALGO_CLASSIC",
+      "nav_target": "NONE",
+      "nav_use_brackets": true,
+      "thermals": 0,
+      "nav_showWind": true,
+      "nav_showSun": true,
+      "line_thickness": 20
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WStatusLine",
+      "X1": 0,
+      "Y1": 0,
+      "X2": 3333,
+      "Y2": 526,
+      "_border": false,
+      "_bg": 100,
+      "showTime": false
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WTime",
+      "X1": 0,
+      "Y1": 526,
+      "X2": 1212,
+      "Y2": 1053,
+      "_border": false,
+      "_bg": 100,
+      "_title": false,
+      "showSec": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WThermalAssistant",
+      "X1": 0,
+      "Y1": 2105,
+      "X2": 3333,
+      "Y2": 8947,
+      "_border": true,
+      "_bg": 100,
+      "rotation": {
+        "value": "NORTH_AT_TOP",
+        "showCompass": false
+      },
+      "mapScale": {
+        "value": 26,
+        "auto": false
+      },
+      "drawScale": true,
+      "interval": 1200,
+      "drawCircle": false,
+      "includeWindAlgorithm": "ALGO_CLASSIC",
+      "nav_target": "NONE",
+      "nav_use_brackets": true,
+      "thermals": 0,
+      "nav_showWind": false,
+      "nav_showSun": false,
+      "line_thickness": 20
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WSpeed",
+      "X1": 1212,
+      "Y1": 526,
+      "X2": 2121,
+      "Y2": 1053,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WGlide",
+      "X1": 2121,
+      "Y1": 526,
+      "X2": 3333,
+      "Y2": 1053,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true,
+      "showVario": false,
+      "avg": 2000,
+      "headless": false
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WAltitude",
+      "X1": 0,
+      "Y1": 1053,
+      "X2": 1212,
+      "Y2": 2105,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WThermalAltGain",
+      "X1": 2121,
+      "Y1": 1053,
+      "X2": 3333,
+      "Y2": 2105,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WVerticalSpeed",
+      "X1": 1212,
+      "Y1": 1053,
+      "X2": 2121,
+      "Y2": 2105,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true,
+      "avg": 2000
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WOptiResult",
+      "X1": 0,
+      "Y1": 8947,
+      "X2": 1212,
+      "Y2": 10000,
+      "_border": true,
+      "_bg": 100,
+      "_title": false,
+      "_unit": true
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WCompGlideToGoal",
+      "X1": 2424,
+      "Y1": 8947,
+      "X2": 3333,
+      "Y2": 10000,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true,
+      "headless": false
+    },
+    {
+      "CLASS": "org.xcontest.XCTrack.widget.w.WCompDistanceToGoal",
+      "X1": 1212,
+      "Y1": 8947,
+      "X2": 2424,
+      "Y2": 10000,
+      "_border": false,
+      "_bg": 100,
+      "_title": true,
+      "_unit": true
+    }
+  ]
+}
